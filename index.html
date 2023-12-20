@@ -33,10 +33,11 @@
         <!-- WRAPPER THAT CONTAINS THW WHOLE WEBAPP -->
         <div class="wrapper">
             
-            <header class="py-1" id="page__header">
+            <!-- HEADER -->
+            <header id="app__header">
 
-                <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                    <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg bg-body-secondary">
+                    <div class="container-fluid gap-3">
                       
                         <!-- LOGO -->
                       <a class="navbar-brand" href="#" aria-current="page">
@@ -121,6 +122,44 @@
                   </nav>
 
             </header>
+            <!-- END HEADER -->
+
+            <!-- APP BOTTOM -->
+            <section id="app__bottom">
+
+                <!-- SIDE BAR -->
+                <nav class="debug d-flex" id="app__sidebar">
+                    
+                    <a href="#" class="sidebar__cnt">
+                        <i class="fs-4 bi bi-house-fill"></i>
+                        <span class="ms-2 d-none d-lg-inline">Home</span>
+                    </a>
+                    
+                    <a href="#" class="sidebar__cnt">
+                        <i class="fs-4 bi bi-clipboard-data"></i>
+                        <span class="ms-2 d-none d-lg-inline">Stats</span>
+                    </a>
+                    
+                    <a href="#" class="sidebar__cnt">
+                        <i class="fs-4 bi bi-bar-chart"></i>
+                        <span class="ms-2 d-none d-lg-inline">Signals</span>
+                    </a>
+
+                    <a href="#" class="sidebar__cnt">
+                        <i class="fs-4 bi bi-bar-chart-fill"></i>
+                        <span class="ms-2 d-none d-lg-inline">Admin</span>
+                    </a>
+                </nav>
+                <!-- END SIDEBAR -->
+
+                <!-- MAIN -->
+                <main class="debug" id="app_main">
+
+                </main>
+                <!-- END MAIN -->
+
+            </section>
+            <!-- END APP BOTTOM -->
 
         </div>
         <!-- END WRAPPER -->

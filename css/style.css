@@ -1,9 +1,23 @@
 /**********************
+    CUSTOM PROPS
+**********************/
+:root {
+    /* spacing */
+    --base-space: 12px;
+    --header-h: 90px;
+    --sidebar-l: 75px;
+
+    /* palette */
+    --sidebar-bg-color: #051e34;
+}
+
+/**********************
     DEBUG
 **********************/
 .debug {
-    padding: 25px;
+    /* padding: 25px; */
     border: 2px dotted limegreen;
+    background-color: #8a2be2;
 }
 
 /**********************
@@ -28,6 +42,11 @@ body > .wrapper {
 /**********************
     HEADER
 **********************/
+#app__header {
+    height: var(--header-h);
+    padding: var(--base-space) 0;
+}
+
 #logo_sm {
     height: 45px;
 }
@@ -38,4 +57,50 @@ body > .wrapper {
 
 #search {
     font-family: Arial, FontAwesome;
+}
+
+/**********************
+    APP BOTTOM
+**********************/
+#app__bottom {
+    width: 100%;
+    height: calc(100dvh - var(--header-h));
+}
+
+/** SIDEBAR **/
+#app__sidebar {
+    padding: var(--base-space);
+    width: var(--sidebar-l);
+    height: 100%;
+    background-color: var(--sidebar-bg-color);
+    background-image: url(./../img/sidebar-bg.png);
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar__cnt {
+    padding: calc(var(--base-space)/2) var(--base-space);
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar__cnt:last-child {
+    margin-top: auto;
+}
+
+
+/*************************************
+     MEDIA QUERY
+*************************************/
+@media screen and (min-width: 1200px) {
+    
+    /**********************
+        APP BOTTOM
+    **********************/
+    /** SIDEBAR **/
+   :root {
+    --sidebar-l: 160px;
+   }
+
 }
