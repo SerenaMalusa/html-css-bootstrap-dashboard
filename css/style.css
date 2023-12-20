@@ -1,0 +1,41 @@
+/**********************
+    DEBUG
+**********************/
+.debug {
+    padding: 25px;
+    border: 2px dotted limegreen;
+}
+
+/**********************
+    UTILITIES 
+**********************/
+.wrapper {
+    overflow: hidden;
+}
+
+/**********************
+    BODY
+**********************/
+body {
+    background-color: #f8f9fa;
+}
+
+body > .wrapper {
+    width: 100%;
+    height: 100dvh;
+}
+
+/**********************
+    HEADER
+**********************/
+#logo_sm {
+    height: 45px;
+}
+
+#logo_lg {
+    height: 30px;
+}
+
+#search {
+    font-family: Arial, FontAwesome;
+}
