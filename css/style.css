@@ -15,7 +15,7 @@
     DEBUG
 **********************/
 .debug {
-    /* padding: 25px; */
+    padding: 25px;
     border: 2px dotted limegreen;
     background-color: #8a2be2;
 }
@@ -48,7 +48,7 @@ body > .wrapper {
 }
 
 #logo_sm {
-    height: 45px;
+    height: 35px;
 }
 
 #logo_lg {
@@ -89,6 +89,14 @@ body > .wrapper {
     margin-top: auto;
 }
 
+/** MAIN **/
+#app__main {
+    width: calc(100% - var(--sidebar-l));
+}
+
+/** header **/
+
+
 
 /*************************************
      MEDIA QUERY
@@ -99,6 +107,7 @@ body > .wrapper {
         APP BOTTOM
     **********************/
     /** SIDEBAR **/
+    /* make sidebar bigger */
    :root {
     --sidebar-l: 160px;
    }
