@@ -76,7 +76,7 @@ body > .wrapper {
     background-image: url(./../img/sidebar-bg.png);
 
     flex-direction: column;
-    align-items: center;
+    align-items: baseline;
 }
 
 .sidebar__cnt {
