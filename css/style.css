@@ -95,13 +95,24 @@ body > .wrapper {
 }
 
 /** header **/
+#app__main__header .main__header__badge {
+    --bs-bg-opacity: .3;
+}
 
-
+.main__header__badge.badge__round {
+    display: inline-block;
+    border-radius: 50%;
+    height: 20px;
+    aspect-ratio: 1;
+    line-height: 16px;
+    text-align: center;
+    font-size: 1.2rem;
+}
 
 /*************************************
      MEDIA QUERY
 *************************************/
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 992px) {
     
     /**********************
         APP BOTTOM
