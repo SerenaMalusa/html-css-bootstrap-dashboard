@@ -92,6 +92,7 @@ body > .wrapper {
 /** MAIN **/
 #app__main {
     width: calc(100% - var(--sidebar-l));
+    height: 100%;
 }
 
 /** header **/
@@ -107,6 +108,10 @@ body > .wrapper {
     line-height: 16px;
     text-align: center;
     font-size: 1.2rem;
+}
+
+.offcanvas {
+    --bs-offcanvas-width: 576px;
 }
 
 /*************************************
