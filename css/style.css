@@ -115,6 +115,29 @@ body > .wrapper {
     --bs-offcanvas-width: 576px;
 }
 
+/** main content **/
+/* table */
+.table__img {
+    height: 30px;
+}
+
+.img-round {
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    height: 30px;
+    overflow: hidden;
+}
+
+.first__cell {
+    line-height: 22px;
+}
+
+.cell__text {
+    vertical-align: top;
+}
+
 /*************************************
      MEDIA QUERY
 *************************************/

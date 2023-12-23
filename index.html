@@ -161,10 +161,13 @@
 
                         <div class="row justify-content-between row-gap-3">
 
+                            <!-- COL NEW STUDENT -->
                             <div class="col-md-4 col-lg-3 order-md-3">
                                 <span class="me-2 mb-2">
                                     Nuovo Studente
-                                </span>    
+                                </span> 
+                                
+                                <!-- OFFCANVAS BUTTON -->
                                 <button class="btn btn-outline-light fs-3 lh-2 px-2 py-0"
                                         type="button" 
                                         data-bs-toggle="offcanvas" 
@@ -173,6 +176,7 @@
                                 >
                                     <i class="bi bi-plus"></i>
                                 </button>
+                                <!-- END OFFCANVAS BUTTON -->
 
                                 <!-- OFFCANVAS -->
                                 <div  class="offcanvas offcanvas-end" 
@@ -269,7 +273,10 @@
                                 <!-- END OFFCANVAS -->
 
                             </div>
-                            <div class="col-md-4 flex-grow-lg-1">
+                            <!-- END COL NEW STUDENT -->
+
+                            <!-- COL BADGES -->
+                            <div class="col-md-4 col-lg-6">
                                 <div class="d-lg-block">
                                     <h2 class="d-inline-block me-2">Boolean</h2>
                                     <span class="main__header__badge rounded-pill badge bg-dark me-1">Piano blaze</span> 
@@ -283,23 +290,309 @@
                                 <span class="main__header__badge rounded-pill badge bg-dark me-1 d-none d-lg-inline-block">Boolean web app</span> 
                                 <span class="main__header__badge rounded-pill badge bg-dark me-1 d-none d-lg-inline-block">Boolean blog app</span> 
                             </div>
+                            <!-- END COL BADGES -->
+
+                            <!-- COL ONLINE STUDENTS -->
                             <div class="col-md-4 col-lg-3">
                                 Studenti online negli ultimi 30 minuti
                                 <div class="h2">125</div>
                             </div>
+                            <!-- COL ONLINE STUDENTS -->
 
                         </div>
 
                     </header>
                     <!-- END MAIN HEADER -->
 
+                    <!-- MAIN CONTENT -->
                     <div id="main__cnt">
 
                         <div class="container-fluid">
                             <div class="row justify-content-between py-3">
-                                <div class="col12 col-lg-7"> 
+
+                                <!-- LEFT COLUMN -->
+                                <div class="col-lg-8"> 
+
+                                    <!-- CARD -->
                                     <div class="card mb-3">
 
+                                        <div class="card-header text-capitalize">
+                                            <h4> Prossime classi</h4>
+                                          </div>
+                                          <div class="card-body">
+                                            
+                                            <!-- TABLE -->
+                                            <table class="table">
+
+                                                <!-- HEAD -->
+                                                <thead>
+                                                  <tr>
+                                                    <th scope="col">Nome</th>
+                                                    <th scope="col" class="text-center d-none d-md-table-cell">Data inizio</th>
+                                                    <th scope="col" class="text-center d-none d-md-table-cell">ROI</th>
+                                                    <th scope="col" class="text-center">Stato</th>
+                                                    <th scope="col" class="text-center">Azioni</th>
+                                                  </tr>
+                                                </thead>
+                                                <!-- END HEAD -->
+
+                                                <!-- BODY -->
+                                                <tbody>
+
+                                                    <!-- FIRTS ROW  -->
+                                                    <tr class="text-capitalize">
+
+                                                      <td class="first__cell">
+                                                        <div class="img-round">
+                                                          <img class="table__img" src="./img/class-avatar.jpg" alt="class avatar">
+                                                        </div>
+                                                        <span class="cell__text">classe 75</span>
+                                                      </td>
+
+                                                      <td class="text-center d-none d-md-table-cell">15 feb 2021</td>
+
+                                                      <td class="text-center d-none d-md-table-cell">20%</td>
+
+                                                      <td class="text-center">
+                                                        <div class="badge text-bg-success">done</div>
+                                                      </td>
+
+                                                      <td class="text-center">
+                                                        <button type="button" class="btn btn-outline-secondary">
+                                                          <i class="bi bi-pencil-fill"></i>
+                                                        </button>
+                                                        <button type="button" class="btn btn-outline-secondary">
+                                                          <i class="bi bi-trash3-fill"></i>
+                                                        </button>                        
+                                                      </td>
+
+                                                    </tr>
+                                                    <!-- END FIRST ROW -->
+
+                                                    <!-- ROW -->
+                                                    <tr class="text-capitalize">
+
+                                                        <td class="first__cell">
+                                                          <div class="img-round">
+                                                            <img class="table__img" src="./img/class-avatar.jpg" alt="class avatar">
+                                                          </div>
+                                                          <span class="cell__text">classe 76</span>
+                                                        </td>
+
+                                                        <td class="text-center d-none d-md-table-cell">16 feb 2021</td>
+
+                                                        <td class="text-center d-none d-md-table-cell">20%</td>
+
+                                                        <td class="text-center">
+                                                          <div class="badge text-bg-success">done</div>
+                                                        </td>
+
+                                                        <td class="text-center">
+                                                          <button type="button" class="btn btn-outline-secondary">
+                                                            <i class="bi bi-pencil-fill"></i>
+                                                          </button>
+                                                          <button type="button" class="btn btn-outline-secondary">
+                                                            <i class="bi bi-trash3-fill"></i>
+                                                          </button>                        
+                                                        </td>
+
+                                                    </tr>
+                                                    <!-- END ROW -->
+
+                                                    <!-- ROW -->
+                                                    <tr class="text-capitalize">
+
+                                                    <td class="first__cell">
+                                                        <div class="img-round">
+                                                        <img class="table__img" src="./img/class-avatar.jpg" alt="class avatar">
+                                                        </div>
+                                                        <span class="cell__text">classe 77</span>
+                                                    </td>
+
+                                                    <td class="text-center d-none d-md-table-cell">17 feb 2021</td>
+
+                                                    <td class="text-center d-none d-md-table-cell">20%</td>
+
+                                                    <td class="text-center">
+                                                        <div class="badge text-bg-warning text-white">process</div>
+                                                    </td>
+
+                                                    <td class="text-center">
+                                                        <button type="button" class="btn btn-outline-secondary">
+                                                        <i class="bi bi-pencil-fill"></i>
+                                                        </button>
+                                                        <button type="button" class="btn btn-outline-secondary">
+                                                        <i class="bi bi-trash3-fill"></i>
+                                                        </button>                        
+                                                    </td>
+
+                                                    </tr>
+                                                    <!-- END ROW -->
+
+                                                    <!-- ROW -->
+                                                    <tr class="text-capitalize">
+
+                                                    <td class="first__cell">
+                                                        <div class="img-round">
+                                                        <img class="table__img" src="./img/class-avatar.jpg" alt="class avatar">
+                                                        </div>
+                                                        <span class="cell__text">classe 78</span>
+                                                    </td>
+
+                                                    <td class="text-center d-none d-md-table-cell">18 feb 2021</td>
+
+                                                    <td class="text-center d-none d-md-table-cell">20%</td>
+
+                                                    <td class="text-center">
+                                                        <div class="badge text-bg-success">done</div>
+                                                    </td>
+
+                                                    <td class="text-center">
+                                                        <button type="button" class="btn btn-outline-secondary">
+                                                        <i class="bi bi-pencil-fill"></i>
+                                                        </button>
+                                                        <button type="button" class="btn btn-outline-secondary">
+                                                        <i class="bi bi-trash3-fill"></i>
+                                                        </button>                        
+                                                    </td>
+
+                                                    </tr>
+                                                    <!-- END ROW -->
+
+                                                    <!-- ROW -->
+                                                    <tr class="text-capitalize">
+
+                                                    <td class="first__cell">
+                                                        <div class="img-round">
+                                                        <img class="table__img" src="./img/class-avatar.jpg" alt="class avatar">
+                                                        </div>
+                                                        <span class="cell__text">classe 79</span>
+                                                    </td>
+                                                    
+                                                    <td class="text-center d-none d-md-table-cell">19 feb 2021</td>
+
+                                                    <td class="text-center d-none d-md-table-cell">20%</td>
+
+                                                    <td class="text-center">
+                                                        <div class="badge text-bg-danger">failed</div>
+                                                    </td>
+
+                                                    <td class="text-center">
+                                                        <button type="button" class="btn btn-outline-secondary">
+                                                        <i class="bi bi-pencil-fill"></i>
+                                                        </button>
+                                                        <button type="button" class="btn btn-outline-secondary">
+                                                        <i class="bi bi-trash3-fill"></i>
+                                                        </button>                        
+                                                    </td>
+
+                                                    </tr>
+                                                    <!-- END ROW -->
+
+                                                    <!-- ROW -->
+                                                    <tr class="text-capitalize">
+
+                                                    <td class="first__cell">
+                                                        <div class="img-round">
+                                                        <img class="table__img" src="./img/class-avatar.jpg" alt="class avatar">
+                                                        </div>
+                                                        <span class="cell__text">classe 80</span>
+                                                    </td>
+
+                                                    <td class="text-center d-none d-md-table-cell d-none d-md-table-cell">20 feb 2021</td>
+                                                    
+                                                    <td class="text-center d-none d-md-table-cell d-none d-md-table-cell">20%</td>
+                                                    
+                                                    <td class="text-center">
+                                                        <div class="badge text-bg-success">done</div>
+                                                    </td>
+                                                    
+                                                    <td class="text-center">
+                                                        <button type="button" class="btn btn-outline-secondary">
+                                                        <i class="bi bi-pencil-fill"></i>
+                                                        </button>
+                                                        <button type="button" class="btn btn-outline-secondary">
+                                                        <i class="bi bi-trash3-fill"></i>
+                                                        </button>                        
+                                                    </td>
+
+                                                    </tr>
+                                                    <!-- END ROW -->
+
+                                                    <!-- ROW -->
+                                                    <tr class="text-capitalize">
+
+                                                    <td class="first__cell">
+                                                        <div class="img-round">
+                                                        <img class="table__img" src="./img/class-avatar.jpg" alt="class avatar">
+                                                        </div>
+                                                        <span class="cell__text">classe 81</span>
+                                                    </td>
+
+                                                    <td class="text-center d-none d-md-table-cell">21 feb 2021</td>
+
+                                                    <td class="text-center d-none d-md-table-cell">20%</td>
+
+                                                    <td class="text-center">
+                                                        <div class="badge text-bg-danger">failed</div>
+                                                    </td>
+
+                                                    <td class="text-center">
+                                                        <button type="button" class="btn btn-outline-secondary">
+                                                        <i class="bi bi-pencil-fill"></i>
+                                                        </button>
+                                                        <button type="button" class="btn btn-outline-secondary">
+                                                        <i class="bi bi-trash3-fill"></i>
+                                                        </button>                        
+                                                    </td>
+
+                                                    </tr>
+                                                    <!-- END ROW -->
+
+                                                    <!-- LAST ROW -->
+                                                    <tr class="text-capitalize">
+
+                                                    <td class="first__cell">
+                                                        <div class="img-round">
+                                                        <img class="table__img" src="./img/class-avatar.jpg" alt="class avatar">
+                                                        </div>
+                                                        <span class="cell__text">classe 82</span>
+                                                    </td>
+
+                                                    <td class="text-center d-none d-md-table-cell d-none d-md-table-cell">22 feb 2021</td>
+                                                    
+                                                    <td class="text-center d-none d-md-table-cell d-none d-md-table-cell">20%</td>
+                                                    
+                                                    <td class="text-center">
+                                                        <div class="badge text-bg-success">done</div>
+                                                    </td>
+                                                    
+                                                    <td class="text-center">
+                                                        <button type="button" class="btn btn-outline-secondary">
+                                                        <i class="bi bi-pencil-fill"></i>
+                                                        </button>
+                                                        <button type="button" class="btn btn-outline-secondary">
+                                                        <i class="bi bi-trash3-fill"></i>
+                                                        </button>                        
+                                                    </td>
+
+                                                    </tr>
+                                                    <!-- END LAST ROW -->
+
+                                                </tbody>
+                                                <!-- END TABLE BODY -->
+
+                                            </table> 
+                                            <!-- END TABLE -->
+
+                                          </div>
+                                        
+                                    </div>
+                                    <!-- END CARD -->
+                                    
+                                    <!-- CARD -->
+                                    <div class="card mb-3">
+                                        
                                         <div class="card-header text-capitalize">
                                             <h4> Prossime classi</h4>
                                           </div>
@@ -308,21 +601,15 @@
                                           </div>
                                         
                                     </div>
-
-                                    <div class="card mb-3">
-                                        
-                                        <div class="card-header text-capitalize">
-                                            <h4> Prossime classi</h4>
-                                          </div>
-                                          <div class="card-body">
-                                            
-                                          </div>
-                                        
-                                    </div>
+                                    <!-- END CARD -->
 
                                 </div>
-                                <div class="col12 col-lg-5"> 
+                                <!-- END LEFT COLUMN -->
+
+                                <!-- RIGHT COLUMN -->
+                                <div class="col-lg-4"> 
                                     
+                                    <!-- CARD -->
                                     <div class="card mb-3">
                                         
                                         <div class="card-header text-capitalize">
@@ -333,28 +620,43 @@
                                           </div>
                                         
                                     </div>
-                                    <div class="card mb-3">
+                                    <!--END CARD -->
+
+                                    <!-- IMG CARD -->
+                                    <div class="card mb-3 p-3">
+
+                                        <div class="card">
+                                            
+                                            <img src="./img/stats.jpeg" class="card-img-top" alt="this is a graph">
+                                            <div class="card-body">
+                                                <h5 class="card-title text-capitalize">utenti attivi</h5>
+                                                <p class="card-text">lista degli utenti attivi nell'ultimo mese</p>
+                                            </div>
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">Gennaio: 1200</li>
+                                                <li class="list-group-item">Febbraio: 800</li>
+                                                <li class="list-group-item">Marzo: 1500</li>
+                                            </ul>
+                                            <div class="card-body">
+                                                <a href="#" class="card-link">Visualizza report approfondito</a>
+                                            </div>
+
+                                        </div>
                                         
-                                        <img src="./img/stats.jpeg" class="card-img-top" alt="this is a graph">
-                                        <div class="card-body">
-                                            <h5 class="card-title text-capitalize">utenti attivi</h5>
-                                            <p class="card-text">lista degli utenti attivi nell'ultimo mese</p>
-                                        </div>
-                                        <ul class="list-group list-group-flush">
-                                            <li class="list-group-item">Gennaio: 1200</li>
-                                            <li class="list-group-item">Febbraio: 800</li>
-                                            <li class="list-group-item">Marzo: 1500</li>
-                                        </ul>
-                                        <div class="card-body">
-                                            <a href="#" class="card-link">Visualizza report approfondito</a>
-                                        </div>
                                         
                                     </div>
+                                    <!-- END IMG CARD -->
                                     
                                 </div>
+                                <!-- RIGHT COLUMN -->
+
                             </div>
+                            <!-- END ROW -->
                         </div>
+                        <!-- END CONTAINER -->
+
                     </div>
+                    <!-- END MAIN CONTENT -->
 
                 </main>
                 <!-- END MAIN -->
