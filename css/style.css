@@ -89,6 +89,10 @@ body > .wrapper {
     margin-top: auto;
 }
 
+.sidebar__cnt:hover {
+    backdrop-filter: brightness(60%) invert(60%);
+} 
+
 /** MAIN **/
 #app__main {
     width: calc(100% - var(--sidebar-l));
