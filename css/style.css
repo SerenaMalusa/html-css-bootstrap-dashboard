@@ -117,8 +117,8 @@ body > .wrapper {
 
 /** main content **/
 /* table */
-.table__img {
-    height: 30px;
+tr .first__cell {
+    line-height: 22px;
 }
 
 .img-round {
@@ -130,8 +130,8 @@ body > .wrapper {
     overflow: hidden;
 }
 
-.first__cell {
-    line-height: 22px;
+.img-round > .table__img {
+    height: 30px;
 }
 
 .cell__text {
