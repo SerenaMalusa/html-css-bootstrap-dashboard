@@ -93,7 +93,6 @@ body > .wrapper {
 #app__main {
     width: calc(100% - var(--sidebar-l));
     height: 100%;
-
     overflow: auto;
 }
 
