@@ -178,100 +178,6 @@
                                 </button>
                                 <!-- END OFFCANVAS BUTTON -->
 
-                                <!-- OFFCANVAS -->
-                                <div  class="offcanvas offcanvas-end" 
-                                tabindex="-1" 
-                                id="offcanvasRight" 
-                                aria-labelledby="offcanvasRightLabel"
-                                data-bs-scroll="true">
-
-                                    <!-- OFFCANVAS HEADER -->
-                                    <div class="offcanvas-header">
-                                        <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                                    </div>
-                                    <!-- END OFFCANVAS HEADER -->
-
-                                    <!-- OFFCANVAS BODY -->
-                                    <form class="offcanvas-body container-fluid" action="#" method="POST">
-
-                                        <div class="row">
-                            
-                                            <!-- NAME INPUT -->
-                                            <div class="col-6 mb-3">
-                                            <label for="input__name" class="form-label">Nome</label>
-                                            <input type="text" class="form-control" id="input__name">
-                                            </div>
-                            
-                                            <!-- SURNAME INPUT -->
-                                            <div class="col-6 mb-3">
-                                            <label for="input__surname" class="form-label">Cognome</label>
-                                            <input type="text" class="form-control" id="input__surname">
-                                            </div>
-
-                                             <!-- EMAIL INPUT -->
-                                            <div class="col-6 mb-3">
-                                                <label for="input__email" class="form-label">Email</label>
-                                                <div class="input-group">
-                                                <span class="input-group-text" id="addon">@</span>
-                                                <input type="email" class="form-control" id="input__email" aria-label="Email" aria-describedby="addon">
-                                                </div>
-                                            </div>
-
-                                            <!-- PASSWORD INPUT -->
-                                            <div class="col-6 mb-3">
-                                                <label for="input__psw" class="form-label">Password</label>
-                                                <input type="password" class="form-control" id="input__psw">
-                                            </div>
-                                            
-                                            <!-- TOWN INPUT -->
-                                            <div class="mb-3 col-6">
-                                                <label for="input__town" class="form-label">Città</label>
-                                                <input type="text" class="form-control" id="input__town">
-                                            </div>
-
-                                            <!-- COWNTRY SELECT -->
-                                            <div class="mb-3 col-3">
-                                                <label for="input__cowntry" class="form-label">Stato</label>
-                                                <select class="form-select" aria-label="Default select example" id="input__cowntry">
-                                                <option selected>Scegli..</option>
-                                                <option value="1">Italy</option>
-                                                <option value="2">France</option>
-                                                <option value="3">Japan</option>
-                                                </select>
-                                            </div>
-
-                                            <!-- POSTAL CODE INPUT -->
-                                            <div class="mb-3 col-3">
-                                                <label for="input__post-code" class="form-label">CAP</label>
-                                                <input type="text" class="form-control" id="input__post-code">
-                                            </div>
-                                            
-
-                                            <!-- PHOTO INPUT -->
-                                            <div class="mb-3">
-                                                <label for="input__photo" class="form-label">Foto</label>
-                                                <input class="form-control" type="file" id="input__photo">
-                                            </div>              
-                                            
-                                        </div>
-
-                                        <!-- FORM CHECK -->
-                                        <div class="mb-3 form-check">
-                                            <label class="form-check-label" for="input__check">Seleziona per proseguire</label>
-                                            <input type="checkbox" class="form-check-input" id="input__check">
-                                        </div>
-                            
-                                        <!-- BUTTONS -->
-                                        <button type="submit" class="btn btn-primary">Salva</button>
-                                        <button type="submit" class="btn btn-warning">Svuota</button>            
-                            
-                                    </form>
-                                    <!-- END OFFCANVAS BODY -->
-                            
-                                </div>
-                                <!-- END OFFCANVAS -->
-
                             </div>
                             <!-- END COL NEW STUDENT -->
 
@@ -826,6 +732,100 @@
 
         </div>
         <!-- END WRAPPER -->
+
+        <!-- OFFCANVAS -->
+        <div  class="offcanvas offcanvas-end" 
+        tabindex="-1" 
+        id="offcanvasRight" 
+        aria-labelledby="offcanvasRightLabel"
+        data-bs-scroll="true">
+
+            <!-- OFFCANVAS HEADER -->
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <!-- END OFFCANVAS HEADER -->
+
+            <!-- OFFCANVAS BODY -->
+            <form class="offcanvas-body container-fluid" action="#" method="POST">
+
+                <div class="row">
+    
+                    <!-- NAME INPUT -->
+                    <div class="col-6 mb-3">
+                    <label for="input__name" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="input__name">
+                    </div>
+    
+                    <!-- SURNAME INPUT -->
+                    <div class="col-6 mb-3">
+                    <label for="input__surname" class="form-label">Cognome</label>
+                    <input type="text" class="form-control" id="input__surname">
+                    </div>
+
+                     <!-- EMAIL INPUT -->
+                    <div class="col-6 mb-3">
+                        <label for="input__email" class="form-label">Email</label>
+                        <div class="input-group">
+                        <span class="input-group-text" id="addon">@</span>
+                        <input type="email" class="form-control" id="input__email" aria-label="Email" aria-describedby="addon">
+                        </div>
+                    </div>
+
+                    <!-- PASSWORD INPUT -->
+                    <div class="col-6 mb-3">
+                        <label for="input__psw" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="input__psw">
+                    </div>
+                    
+                    <!-- TOWN INPUT -->
+                    <div class="mb-3 col-6">
+                        <label for="input__town" class="form-label">Città</label>
+                        <input type="text" class="form-control" id="input__town">
+                    </div>
+
+                    <!-- COWNTRY SELECT -->
+                    <div class="mb-3 col-3">
+                        <label for="input__cowntry" class="form-label">Stato</label>
+                        <select class="form-select" aria-label="Default select example" id="input__cowntry">
+                        <option selected>Scegli..</option>
+                        <option value="1">Italy</option>
+                        <option value="2">France</option>
+                        <option value="3">Japan</option>
+                        </select>
+                    </div>
+
+                    <!-- POSTAL CODE INPUT -->
+                    <div class="mb-3 col-3">
+                        <label for="input__post-code" class="form-label">CAP</label>
+                        <input type="text" class="form-control" id="input__post-code">
+                    </div>
+                    
+
+                    <!-- PHOTO INPUT -->
+                    <div class="mb-3">
+                        <label for="input__photo" class="form-label">Foto</label>
+                        <input class="form-control" type="file" id="input__photo">
+                    </div>              
+                    
+                </div>
+
+                <!-- FORM CHECK -->
+                <div class="mb-3 form-check">
+                    <label class="form-check-label" for="input__check">Seleziona per proseguire</label>
+                    <input type="checkbox" class="form-check-input" id="input__check">
+                </div>
+    
+                <!-- BUTTONS -->
+                <button type="submit" class="btn btn-primary">Salva</button>
+                <button type="submit" class="btn btn-warning">Svuota</button>            
+    
+            </form>
+            <!-- END OFFCANVAS BODY -->
+    
+        </div>
+        <!-- END OFFCANVAS -->
                 
 
         <!-- Bootstrap JS script -->
